@@ -19,14 +19,9 @@
         "google-map-react": "^2.1.10",
         "group": "^1.0.2",
         "nanoid": "^3.1.32",
-<<<<<<< HEAD
-        "react": "next",
-        "react-dom": "next",
-=======
         "postcss-value-parser": "^4.2.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2",
->>>>>>> development
         "react-redux": "^7.2.6",
         "react-router-dom": "^6.0.0",
         "react-scripts": "^3.4.4",

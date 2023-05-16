@@ -1,5 +1,4 @@
 import React,{useEffect} from 'react'
-import './Navbar.scss'
 import { Link,useMatch } from 'react-router-dom'
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
@@ -7,6 +6,7 @@ import { HidePopup, SetOptionsMenuVisibility, SetSiderbarVisibility, ShowPopup }
 import AccountPopUp from '../account/AccountPopUp.jsx';
 import { ReactComponent as  UserProfileIcon} from '../../icons/User-Profile-Icon.svg';
 import {CSSTransition} from 'react-transition-group'
+import './Navbar.scss'
 
 const Navbar = () => {
     

@@ -9,9 +9,6 @@ $border-color: #eceef3;
 }
 
 .navbar {
-    
-
-
 
     width: 100%;
     position:sticky;
@@ -25,9 +22,6 @@ $border-color: #eceef3;
     border-bottom: 1px solid $border-color;
     font-family: "Roboto Slab", serif;
     z-index: 100;
-
-    
-
 
     &__optionsMenu{
         --bar-width:30px;
@@ -62,14 +56,14 @@ $border-color: #eceef3;
             &::before{
                 rotate: 45deg; 
                 // translate: 0 var(--bar-height)/-2;
-                translate: 0 calc(var(--bar-height)/-2);
+                translate: 0 calc(-1*var(--bar-height) / 2);
+
                 width:var(--x-width);
             }
             &::after{
                 rotate: -45deg;
                 width:var(--x-width);
-                translate: 0 calc(var(--bar-height)/2);
-                
+                translate: 0 calc(var(--bar-height)/2); 
             }
             
             
